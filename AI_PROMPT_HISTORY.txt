@@ -1,0 +1,202 @@
+==========================================> Prompt-01:
+# Welcome, Shariea Reza Nabil
+
+Frontend Developer Practical Assessment
+
+Tasks
+
+**4**
+
+Time limit
+
+**4h**
+
+Your timer starts the moment you click Start, and is tracked on our server - refreshing or closing this page will not reset it.
+
+**General Instructions**
+
+GENERAL INSTRUCTIONS
+
+\- AI tools such as ChatGPT, Claude, Gemini, GitHub Copilot, Cursor, etc. are allowed and encouraged.
+\- Any frontend tools, libraries, frameworks, and development tools may be used.
+\- Backend integration is not required.
+\- Mock/static data is acceptable.
+\- Your submission should be your own work.
+\- You should understand and be able to explain your submitted code/design.
+\- Keep your code clean, readable, and properly structured.
+\- Assessment time limit is 4 hours.
+
+AI PROMPT HISTORY — MANDATORY
+
+If you use ANY AI tool during the assessment, you must submit the COMPLETE prompt history for EVERY AI tool used for this specific assessment project.
+
+The AI prompt history must be submitted inside the Git repository as a separate text file.
+
+Required file:
+
+AI_PROMPT_HISTORY.txt
+
+The file must contain:
+
+\- Every prompt, question, instruction, or request sent to AI for this specific assessment project
+\- Prompts from every AI tool used for this specific assessment project
+\- All prompts in the exact order they were sent
+\- No omitted prompts
+\- No rewritten prompts
+\- No combined prompts
+\- No summarized prompts
+
+The AI prompt history must only include prompts related to this assessment project. Do not include prompts from unrelated projects, previous work, personal conversations, or other tasks.
+
+The AI_PROMPT_HISTORY.txt file must be committed and included in the submitted Git repository.
+
+If you used multiple AI tools, include the complete prompt history from every AI tool in the same AI_PROMPT_HISTORY.txt file, maintaining the original chronological order.
+
+If possible, you may also provide an exported/shared conversation link accessible without login. However, the AI_PROMPT_HISTORY.txt file inside the submitted Git repository is mandatory.
+
+If you did not use AI, create the AI_PROMPT_HISTORY.txt file and write:
+
+"N/A — I did not use AI tools."
+
+**Start Assessment**
+
+arekber dekhe all detsails boloImage e Task 1 er joto lekha ache, ta niche hohobohu copy kore dewa holo:   
+
+- Back to dashboard 3:56:13   
+
+
+
+
+
+
+## Task 1 — Order Tracking Screen \*
+
+
+
+Max score: 40   
+
+TASK 1 — ORDER TRACKING SCREEN ⭐   
+
+Design and implement a modern, professional mobile Order Tracking screen for an e-commerce application.   
+
+The current application only displays:   
+
+- Processing   
+
+- Shipped   
+
+- Out for Delivery   
+
+- Delivered   
+
+
+
+
+Users report that the current status is difficult to understand. Redesign and implement the experience so delivery status is clear at a glance.   
+
+Requirements:   
+
+- Clear visual delivery progress/timeline   
+
+- Current order status   
+
+- Estimated delivery date/time   
+
+- Order/product summary   
+
+- Clear way to contact support   
+
+- Appropriate loading/empty/error states where relevant   
+
+- Responsive design for approximately 360-430px mobile widths   
+
+- Clean spacing, typography, hierarchy, and visual consistency   
+
+- Meaningful interactions such as viewing order details, contacting support, or reporting a delivery issue   
+
+
+
+
+The UI must handle all three situations:   
+
+1. Delayed Order — the estimated delivery time has passed or the order is significantly delayed. Clearly communicate the delay and provide an appropriate next step.   
+
+2. Delivered but Not Received — the system says the order was delivered, but the customer reports they did not receive it. Provide an appropriate next step or support action.   
+
+3. Tracking Not Available Yet — the order exists, but tracking information is not available yet. Avoid an empty or broken-looking screen.   
+
+
+
+
+Show how the same product experience adapts to all three states.   
+
+Technical requirements are flexible: React.js / Next.js / another frontend framework; CSS / Tailwind / CSS Modules / another styling approach; any reasonable UI/icon library. Backend integration is not required — mock/static data is acceptable.   
+
+Submission (both fields below are required): a live deployed URL, accessible without the evaluator running the project locally, and a GitHub repository URL whose README contains brief setup/run instructions.   
+
+Live Deployed URL \* [https://your-link.example.com](https://your-link.example.com)   
+
+GitHub Repository URL \* [https://github.com/you/repo](https://github.com/you/repo)   
+
+Still needed: Live Deployed URL, GitHub Repository URL   
+
+Mark Task Complete   
+
+
+==========================================> Prompt-02:
+Ei project er jonno kon kon stack use korbo && keno korbo
+
+==========================================> Prompt-03:
+project file structure e layput koi?
+
+==========================================> Prompt-04:
+to asole ki use korbobo? & ki structure follow korbo?
+
+==========================================> Prompt-05:
+ui/ │   │   ├── button.tsx │   │   ├── badge.tsx │   │   └── dialog.tsx  
+
+ei 3 tar full cdoe daw
+
+==========================================> Prompt-06:
+├── order-header.tsx │   ├── status-card.tsx │   ├── delivery-timeline.tsx │   ├── order-summary.tsx │   ├── support-actions.tsx │   └── issue-dialog.tsx  
+
+daw full code eguler
+
+
+==========================================> Prompt-07:
+orders.ts  
+etar full 
+
+==========================================> Prompt-08:
+import React from 'react';
+
+const MainPage = () => {
+  return (
+    <div>
+      Main Page
+    </div>
+  );
+};
+
+export default MainPage;
+
+
+==========================================> Prompt-09:
+**Image with src "**[**https://images.unsplash.com/photo-1546435770-a3e426bf472b?q=80&w=800&auto=format&fit=crop**](https://images.unsplash.com/photo-1546435770-a3e426bf472b?q=80\&w=800\&auto=format\&fit=crop)**" is missing required "width" property.**  
+
+
+==========================================> Prompt-10:
+all image support korbe amon kore daw
+
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  /* config options here */
+  reactCompiler: true,
+};
+
+export default nextConfig;
+
+
+==========================================> Prompt-11:
+types/ └── order.ts
