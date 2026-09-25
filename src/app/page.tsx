@@ -15,10 +15,8 @@ import { OrderSummary } from "@/components/order-summary"
 import { SupportActions } from "@/components/support-actions"
 import { IssueDialog } from "@/components/issue-dialog"
 
-import {
-  getOrderByState,
-  type OrderData,
-} from "@/data/orders"
+import { getOrderByState } from "@/data/orders"
+import type { OrderData } from "@/types/order"
 
 import type { OrderState } from "@/components/status-card"
 
